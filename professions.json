@@ -1,0 +1,374 @@
+[
+  {
+    "name": "Software Engineer",
+    "description": "They write code to build apps, websites, or systems people use every day. They spend time fixing bugs and improving how software works.",
+    "traits": ["Indoors", "STEM-focused", "Salaried", "High autonomy"],
+    "related_names": ["UX Designer", "Data Scientist", "Product Manager"]
+  },
+  {
+    "name": "UX Designer",
+    "description": "They design how apps and websites feel and look to users. They test ideas to make things easy and enjoyable to use.",
+    "traits": ["Indoors", "Creative", "Team-based", "Salaried"],
+    "related_names": ["Data Scientist", "Product Manager", "Cybersecurity Analyst"]
+  },
+  {
+    "name": "Data Scientist",
+    "description": "They study data to find patterns and useful insights. They help companies make better decisions based on numbers.",
+    "traits": ["Indoors", "Analytical", "STEM-focused", "Salaried"],
+    "related_names": ["Product Manager", "Cybersecurity Analyst", "DevOps Engineer"]
+  },
+  {
+    "name": "Product Manager",
+    "description": "They plan what features a product should have and guide teams to build it. They talk to users and teams to make sure the product solves real problems.",
+    "traits": ["Indoors", "Team-based", "People skills", "Salaried"],
+    "related_names": ["Cybersecurity Analyst", "DevOps Engineer", "Machine Learning Engineer"]
+  },
+  {
+    "name": "Cybersecurity Analyst",
+    "description": "They protect computer systems from hackers and attacks. They monitor systems and fix weaknesses before problems happen.",
+    "traits": ["Indoors", "Analytical", "STEM-focused", "Salaried"],
+    "related_names": ["DevOps Engineer", "Machine Learning Engineer", "Frontend Developer"]
+  },
+  {
+    "name": "DevOps Engineer",
+    "description": "They make sure software runs smoothly and updates quickly. They connect development and operations teams to improve systems.",
+    "traits": ["Indoors", "STEM-focused", "Team-based", "Salaried"],
+    "related_names": ["Machine Learning Engineer", "Frontend Developer", "Backend Developer"]
+  },
+  {
+    "name": "Machine Learning Engineer",
+    "description": "They build systems that learn from data and improve over time. They test models and make sure they work in real situations.",
+    "traits": ["Indoors", "STEM-focused", "Analytical", "Salaried"],
+    "related_names": ["Frontend Developer", "Backend Developer", "Mobile Developer"]
+  },
+  {
+    "name": "Frontend Developer",
+    "description": "They build the parts of websites and apps that users see and click on. They make sure everything looks good and works smoothly.",
+    "traits": ["Indoors", "Creative", "STEM-focused", "Salaried"],
+    "related_names": ["Backend Developer", "Mobile Developer", "Architect"]
+  },
+  {
+    "name": "Backend Developer",
+    "description": "They build the hidden systems that power apps and websites. They handle data, servers, and how everything connects behind the scenes.",
+    "traits": ["Indoors", "STEM-focused", "Analytical", "Salaried"],
+    "related_names": ["Mobile Developer", "Architect", "Civil Engineer"]
+  },
+  {
+    "name": "Mobile Developer",
+    "description": "They create apps for phones and tablets. They test apps to make sure they run well on different devices.",
+    "traits": ["Indoors", "STEM-focused", "Creative", "Salaried"],
+    "related_names": ["Architect", "Civil Engineer", "Structural Engineer"]
+  },
+  {
+    "name": "Architect",
+    "description": "They design buildings and plan how spaces will be used. They work with clients and engineers to turn ideas into real structures.",
+    "traits": ["Indoors", "Creative", "Degree required", "Salaried"],
+    "related_names": ["Civil Engineer", "Structural Engineer", "Mechanical Engineer"]
+  },
+  {
+    "name": "Civil Engineer",
+    "description": "They design and build roads, bridges, and other large structures. They make sure projects are safe and strong.",
+    "traits": ["Field work", "STEM-focused", "Salaried", "Degree required"],
+    "related_names": ["Structural Engineer", "Mechanical Engineer", "Electrical Engineer"]
+  },
+  {
+    "name": "Structural Engineer",
+    "description": "They make sure buildings and structures can stand safely. They calculate loads and choose strong materials.",
+    "traits": ["Indoors", "Analytical", "STEM-focused", "Salaried"],
+    "related_names": ["Mechanical Engineer", "Electrical Engineer", "Urban Planner"]
+  },
+  {
+    "name": "Mechanical Engineer",
+    "description": "They design machines and moving parts like engines. They test designs to make sure they work properly.",
+    "traits": ["Lab-based", "STEM-focused", "Analytical", "Salaried"],
+    "related_names": ["Electrical Engineer", "Urban Planner", "Construction Manager"]
+  },
+  {
+    "name": "Electrical Engineer",
+    "description": "They work with electrical systems like power and circuits. They design and test systems used in buildings and devices.",
+    "traits": ["Indoors", "STEM-focused", "Analytical", "Salaried"],
+    "related_names": ["Urban Planner", "Construction Manager", "Quantity Surveyor"]
+  },
+  {
+    "name": "Urban Planner",
+    "description": "They plan how cities grow and where buildings and parks go. They try to make places better to live and work.",
+    "traits": ["Indoors", "Creative", "People skills", "Salaried"],
+    "related_names": ["Construction Manager", "Quantity Surveyor", "Surveyor"]
+  },
+  {
+    "name": "Construction Manager",
+    "description": "They manage building projects from start to finish. They make sure work is done on time and safely.",
+    "traits": ["Field work", "Team-based", "Salaried", "Physical"],
+    "related_names": ["Quantity Surveyor", "Surveyor", "Environmental Engineer"]
+  },
+  {
+    "name": "Quantity Surveyor",
+    "description": "They track costs and budgets for construction projects. They help make sure money is spent wisely.",
+    "traits": ["Indoors", "Analytical", "Salaried", "Degree required"],
+    "related_names": ["Surveyor", "Environmental Engineer", "Doctor (GP)"]
+  },
+  {
+    "name": "Surveyor",
+    "description": "They measure land and map out areas for building. They use tools to gather accurate data on sites.",
+    "traits": ["Outdoors", "Field work", "STEM-focused", "Salaried"],
+    "related_names": ["Environmental Engineer", "Doctor (GP)", "Surgeon"]
+  },
+  {
+    "name": "Environmental Engineer",
+    "description": "They work to protect the environment and reduce pollution. They design systems to clean water and air.",
+    "traits": ["Field work", "STEM-focused", "Salaried", "Degree required"],
+    "related_names": ["Doctor (GP)", "Surgeon", "Nurse"]
+  },
+  {
+    "name": "Doctor (GP)",
+    "description": "They see patients with common health problems and give advice or treatment. They help people stay healthy and manage illnesses.",
+    "traits": ["Indoors", "People skills", "Salaried", "Degree required"],
+    "related_names": ["Surgeon", "Nurse", "Pharmacist"]
+  },
+  {
+    "name": "Surgeon",
+    "description": "They perform operations to treat injuries or diseases. They spend long hours in surgery and preparing for procedures.",
+    "traits": ["Indoors", "Physical", "STEM-focused", "Postgrad often needed"],
+    "related_names": ["Nurse", "Pharmacist", "Dentist"]
+  },
+  {
+    "name": "Nurse",
+    "description": "They care for patients and help doctors during treatment. They check vital signs and support people during recovery.",
+    "traits": ["Indoors", "People skills", "Shift-based", "Salaried"],
+    "related_names": ["Pharmacist", "Dentist", "Physiotherapist"]
+  },
+  {
+    "name": "Pharmacist",
+    "description": "They prepare and give out medicines to patients. They explain how to use medicine safely.",
+    "traits": ["Indoors", "Analytical", "Salaried", "Degree required"],
+    "related_names": ["Dentist", "Physiotherapist", "Psychologist"]
+  },
+  {
+    "name": "Dentist",
+    "description": "They care for teeth and gums and fix dental problems. They perform cleanings and small procedures.",
+    "traits": ["Indoors", "Physical", "People skills", "Salaried"],
+    "related_names": ["Physiotherapist", "Psychologist", "Paramedic"]
+  },
+  {
+    "name": "Physiotherapist",
+    "description": "They help people recover from injuries through exercises. They guide patients to improve movement and strength.",
+    "traits": ["Indoors", "Physical", "People skills", "Salaried"],
+    "related_names": ["Psychologist", "Paramedic", "Radiographer"]
+  },
+  {
+    "name": "Psychologist",
+    "description": "They help people understand their thoughts and feelings. They talk with clients to improve mental health.",
+    "traits": ["Indoors", "People skills", "Analytical", "Salaried"],
+    "related_names": ["Paramedic", "Radiographer", "Veterinarian"]
+  },
+  {
+    "name": "Paramedic",
+    "description": "They respond to emergencies and give first aid. They transport patients safely to hospitals.",
+    "traits": ["Field work", "Physical", "Shift-based", "People skills"],
+    "related_names": ["Radiographer", "Veterinarian", "Teacher"]
+  },
+  {
+    "name": "Radiographer",
+    "description": "They take medical images like X-rays and scans. They help doctors see inside the body.",
+    "traits": ["Indoors", "STEM-focused", "Salaried", "Degree required"],
+    "related_names": ["Veterinarian", "Teacher", "University Lecturer"]
+  },
+  {
+    "name": "Veterinarian",
+    "description": "They treat animals and keep them healthy. They perform checkups and sometimes surgery.",
+    "traits": ["Indoors", "People skills", "Physical", "Salaried"],
+    "related_names": ["Teacher", "University Lecturer", "School Counsellor"]
+  },
+  {
+    "name": "Teacher",
+    "description": "They teach students different subjects in school. They prepare lessons and help students learn.",
+    "traits": ["Indoors", "People skills", "Salaried", "Degree required"],
+    "related_names": ["University Lecturer", "School Counsellor", "Educational Psychologist"]
+  },
+  {
+    "name": "University Lecturer",
+    "description": "They teach students at a university level. They also do research and write about their subject.",
+    "traits": ["Indoors", "Analytical", "Salaried", "Postgrad often needed"],
+    "related_names": ["School Counsellor", "Educational Psychologist", "Speech Therapist"]
+  },
+  {
+    "name": "School Counsellor",
+    "description": "They support students with personal or school problems. They listen and give advice to help students cope.",
+    "traits": ["Indoors", "People skills", "Salaried", "Degree required"],
+    "related_names": ["Educational Psychologist", "Speech Therapist", "Lawyer"]
+  },
+  {
+    "name": "Educational Psychologist",
+    "description": "They help students who struggle with learning. They assess needs and suggest ways to improve learning.",
+    "traits": ["Indoors", "Analytical", "People skills", "Postgrad often needed"],
+    "related_names": ["Speech Therapist", "Lawyer", "Judge"]
+  },
+  {
+    "name": "Speech Therapist",
+    "description": "They help people improve speech and communication skills. They work with children and adults with speech issues.",
+    "traits": ["Indoors", "People skills", "Salaried", "Degree required"],
+    "related_names": ["Lawyer", "Judge", "Paralegal"]
+  },
+  {
+    "name": "Lawyer",
+    "description": "They give legal advice and represent clients in court. They study laws and prepare cases.",
+    "traits": ["Indoors", "Analytical", "People skills", "Salaried"],
+    "related_names": ["Judge", "Paralegal", "Compliance Officer"]
+  },
+  {
+    "name": "Judge",
+    "description": "They make decisions in court based on the law. They listen to cases and decide outcomes.",
+    "traits": ["Indoors", "Analytical", "Salaried", "Postgrad often needed"],
+    "related_names": ["Paralegal", "Compliance Officer", "Patent Attorney"]
+  },
+  {
+    "name": "Paralegal",
+    "description": "They support lawyers by preparing documents and research. They help organize case information.",
+    "traits": ["Indoors", "Analytical", "Salaried", "Vocational training"],
+    "related_names": ["Compliance Officer", "Patent Attorney", "Accountant"]
+  },
+  {
+    "name": "Compliance Officer",
+    "description": "They make sure companies follow rules and laws. They check processes and report issues.",
+    "traits": ["Indoors", "Analytical", "Salaried", "Degree required"],
+    "related_names": ["Patent Attorney", "Accountant", "Financial Analyst"]
+  },
+  {
+    "name": "Patent Attorney",
+    "description": "They help protect inventions with legal rights. They write and file patent documents.",
+    "traits": ["Indoors", "Analytical", "Salaried", "Postgrad often needed"],
+    "related_names": ["Accountant", "Financial Analyst", "Investment Banker"]
+  },
+  {
+    "name": "Accountant",
+    "description": "They manage money records and make sure finances are accurate. They prepare reports and help with budgeting and taxes.",
+    "traits": ["Indoors", "Analytical", "Salaried", "Degree required"],
+    "related_names": ["Financial Analyst", "Investment Banker", "Actuary"]
+  },
+  {
+    "name": "Financial Analyst",
+    "description": "They study financial data to help businesses make decisions. They look at trends and predict future performance.",
+    "traits": ["Indoors", "Analytical", "Salaried", "Degree required"],
+    "related_names": ["Investment Banker", "Actuary", "Tax Advisor"]
+  },
+  {
+    "name": "Investment Banker",
+    "description": "They help companies raise money and manage big financial deals. They work long hours analyzing and negotiating.",
+    "traits": ["Indoors", "Analytical", "Salaried", "High autonomy"],
+    "related_names": ["Actuary", "Tax Advisor", "Journalist"]
+  },
+  {
+    "name": "Actuary",
+    "description": "They use math to predict risks for insurance and finance. They analyze data to help companies plan for the future.",
+    "traits": ["Indoors", "Analytical", "STEM-focused", "Salaried"],
+    "related_names": ["Tax Advisor", "Journalist", "Copywriter"]
+  },
+  {
+    "name": "Tax Advisor",
+    "description": "They help people and businesses manage their taxes. They give advice on how to follow rules and save money.",
+    "traits": ["Indoors", "Analytical", "Salaried", "Degree required"],
+    "related_names": ["Journalist", "Copywriter", "Graphic Designer"]
+  },
+  {
+    "name": "Journalist",
+    "description": "They research and report news stories. They interview people and write articles or create reports.",
+    "traits": ["Field work", "Creative", "People skills", "Salaried"],
+    "related_names": ["Copywriter", "Graphic Designer", "Photographer"]
+  },
+  {
+    "name": "Copywriter",
+    "description": "They write text for ads, websites, and marketing materials. They try to make messages clear and interesting.",
+    "traits": ["Indoors", "Creative", "Salaried", "Freelance"],
+    "related_names": ["Graphic Designer", "Photographer", "Filmmaker"]
+  },
+  {
+    "name": "Graphic Designer",
+    "description": "They create visual designs for brands, ads, and media. They use software to turn ideas into images.",
+    "traits": ["Indoors", "Creative", "Salaried", "Freelance"],
+    "related_names": ["Photographer", "Filmmaker", "Marketing Manager"]
+  },
+  {
+    "name": "Photographer",
+    "description": "They take photos for events, media, or clients. They edit images to improve quality and style.",
+    "traits": ["Outdoors", "Creative", "Freelance", "High autonomy"],
+    "related_names": ["Filmmaker", "Marketing Manager", "PR Specialist"]
+  },
+  {
+    "name": "Filmmaker",
+    "description": "They create videos or films from idea to final product. They plan scenes, direct shoots, and edit footage.",
+    "traits": ["Creative", "Team-based", "Freelance", "High autonomy"],
+    "related_names": ["Marketing Manager", "PR Specialist", "Social Media Manager"]
+  },
+  {
+    "name": "Marketing Manager",
+    "description": "They plan campaigns to promote products or services. They track results and adjust strategies.",
+    "traits": ["Indoors", "People skills", "Team-based", "Salaried"],
+    "related_names": ["PR Specialist", "Social Media Manager", "Brand Strategist"]
+  },
+  {
+    "name": "PR Specialist",
+    "description": "They manage how a company is seen by the public. They write press releases and handle media communication.",
+    "traits": ["Indoors", "People skills", "Client-facing", "Salaried"],
+    "related_names": ["Social Media Manager", "Brand Strategist", "Advertising Creative"]
+  },
+  {
+    "name": "Social Media Manager",
+    "description": "They run social media accounts for brands or people. They post content and respond to followers.",
+    "traits": ["Remote-friendly", "Creative", "Salaried", "Client-facing"],
+    "related_names": ["Brand Strategist", "Advertising Creative", "Chef"]
+  },
+  {
+    "name": "Brand Strategist",
+    "description": "They shape how a brand looks and feels to customers. They plan long-term messaging and identity.",
+    "traits": ["Indoors", "Creative", "Analytical", "Salaried"],
+    "related_names": ["Advertising Creative", "Chef", "Hotel Manager"]
+  },
+  {
+    "name": "Advertising Creative",
+    "description": "They come up with ideas for ads and campaigns. They work with teams to bring ideas to life.",
+    "traits": ["Creative", "Team-based", "Salaried", "High autonomy"],
+    "related_names": ["Chef", "Hotel Manager", "Event Planner"]
+  },
+  {
+    "name": "Chef",
+    "description": "They cook meals and create new dishes. They manage kitchen work and ensure food quality.",
+    "traits": ["Indoors", "Physical", "Shift-based", "Creative"],
+    "related_names": ["Hotel Manager", "Event Planner", "Logistics Manager"]
+  },
+  {
+    "name": "Hotel Manager",
+    "description": "They run the daily operations of a hotel. They make sure guests have a good experience.",
+    "traits": ["Indoors", "People skills", "Salaried", "Team-based"],
+    "related_names": ["Event Planner", "Logistics Manager", "Supply Chain Analyst"]
+  },
+  {
+    "name": "Event Planner",
+    "description": "They organize events like weddings or conferences. They handle details like venues, schedules, and vendors.",
+    "traits": ["Field work", "People skills", "Creative", "Salaried"],
+    "related_names": ["Logistics Manager", "Supply Chain Analyst", "Operations Associate"]
+  },
+  {
+    "name": "Logistics Manager",
+    "description": "They manage how goods are stored and moved. They make sure deliveries happen on time.",
+    "traits": ["Indoors", "Analytical", "Team-based", "Salaried"],
+    "related_names": ["Supply Chain Analyst", "Operations Associate", "Public Policy"]
+  },
+  {
+    "name": "Supply Chain Analyst",
+    "description": "They study how products move from suppliers to customers. They find ways to make the process faster and cheaper.",
+    "traits": ["Indoors", "Analytical", "STEM-focused", "Salaried"],
+    "related_names": ["Operations Associate", "Public Policy", "Software Engineer"]
+  },
+  {
+    "name": "Operations Associate",
+    "description": "They support daily business tasks and improve processes. They help teams run smoothly and solve problems.",
+    "traits": ["Indoors", "Team-based", "Analytical", "Salaried"],
+    "related_names": ["Public Policy", "Software Engineer", "UX Designer"]
+  },
+  {
+    "name": "Public Policy",
+    "description": "They study and create policies that affect communities and governments. They research issues and suggest solutions.",
+    "traits": ["Indoors", "Analytical", "People skills", "Salaried"],
+    "related_names": ["Software Engineer", "UX Designer", "Data Scientist"]
+  }
+]
