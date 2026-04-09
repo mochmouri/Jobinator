@@ -1,6 +1,6 @@
 # Jobinator
 
-A career discovery app for students aged 16–22. Answer up to 20 yes/no questions and find out which of 60+ careers suits you best. Built with React, Vite, TypeScript, Tailwind CSS, and Supabase.
+A career discovery app for students aged 16–22. Answer between 4 and 9 yes/no questions and find out which of 60+ careers suits you best. Built with React, Vite, TypeScript, Tailwind CSS, and Supabase.
 
 **Live demo:** https://mochmouri.github.io/Jobinator/
 
@@ -111,7 +111,7 @@ Builds the app and pushes to the `gh-pages` branch. Make sure GitHub Pages is en
 
 ## How the decision tree works
 
-The app fetches the root question node from Supabase on load. Each node has a `yes_next` and `no_next` UUID pointing to the next question. When a traversal reaches a node with a `profession_id`, the game ends and the matched profession is shown. The tree covers 60+ professions in at most 15 steps, progressing from broad domain to specific role differentiators.
+The app fetches the root question node from Supabase on load. Each node has a `yes_next` and `no_next` UUID pointing to the next question. When a traversal reaches a node with a `profession_id`, the game ends and the matched profession is shown. The tree covers 60+ professions in 4–9 steps depending on the path, progressing from broad domain to specific role differentiators.
 
 ---
 

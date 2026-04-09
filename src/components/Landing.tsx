@@ -52,7 +52,7 @@ export default function Landing({ onStart }: Props) {
               {
                 step: '01',
                 title: 'Answer questions',
-                body: 'We ask up to 20 yes/no questions about what you enjoy, how you like to work, and what matters to you.',
+                body: 'We ask between 4 and 9 yes/no questions about what you enjoy, how you like to work, and what matters to you.',
               },
               {
                 step: '02',
