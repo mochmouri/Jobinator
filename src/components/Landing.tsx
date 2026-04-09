@@ -19,7 +19,7 @@ export default function Landing({ onStart }: Props) {
             Jobinator
           </h1>
           <p className="text-muted text-lg sm:text-xl leading-relaxed mb-10 max-w-md mx-auto">
-            [COPY NEEDED] — A short, compelling line that tells students aged 16–22 what Jobinator helps them do.
+            Not sure what career is right for you? Answer a few questions and find out.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Button size="lg" onClick={onStart} className="w-full sm:w-auto">
@@ -52,17 +52,17 @@ export default function Landing({ onStart }: Props) {
               {
                 step: '01',
                 title: 'Answer questions',
-                body: '[COPY NEEDED] — One sentence describing the yes/no question format.',
+                body: 'We ask up to 20 yes/no questions about what you enjoy, how you like to work, and what matters to you.',
               },
               {
                 step: '02',
                 title: 'Get matched',
-                body: '[COPY NEEDED] — One sentence on how the result is reached.',
+                body: 'Your answers guide you through a decision tree covering 60+ careers, narrowing down to your best fit.',
               },
               {
                 step: '03',
                 title: 'Explore careers',
-                body: '[COPY NEEDED] — One sentence on what the result page shows.',
+                body: 'See a description of your matched career, the traits it suits, and a handful of related paths worth exploring.',
               },
             ].map(({ step, title, body }) => (
               <div key={step} className="text-center sm:text-left">

@@ -145,6 +145,7 @@ export default function App() {
           )}
           {!loadingQuestion && !questionError && currentQuestion && (
             <QuestionFlow
+              key={currentQuestion.id}
               question={currentQuestion}
               stepNumber={step}
               onAnswer={handleAnswer}

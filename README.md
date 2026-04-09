@@ -2,7 +2,7 @@
 
 A career discovery app for students aged 16–22. Answer up to 20 yes/no questions and find out which of 60+ careers suits you best. Built with React, Vite, TypeScript, Tailwind CSS, and Supabase.
 
-**Live demo:** https://mochmouri.github.io/jobinator/
+**Live demo:** https://mochmouri.github.io/Jobinator/
 
 ---
 
@@ -69,16 +69,21 @@ create policy "Public feedback update"   on professions
 cp .env.example .env
 ```
 
-Fill in your Supabase project URL and anon key in `.env`:
+Fill in your Supabase project URL, anon key, and service role key in `.env`:
 
 ```
 VITE_SUPABASE_URL=https://your-project.supabase.co
 VITE_SUPABASE_ANON_KEY=your-anon-key
+VITE_SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
 ```
+
+The anon key is used by the app at runtime. The service role key is used only by the seed script (it bypasses RLS to insert data) and never shipped to the browser.
+
+Find both keys in your Supabase dashboard under **Project Settings → API**.
 
 ### 4. Seed the database
 
-Make sure `professions.json` is in the project root, then run:
+Make sure `professions.json` is in the project root, then run from inside the project directory:
 
 ```bash
 npm run seed
@@ -100,7 +105,7 @@ npm run dev
 npm run deploy
 ```
 
-Builds the app and pushes to the `gh-pages` branch. Make sure GitHub Pages is enabled on that branch in your repository settings.
+Builds the app and pushes to the `gh-pages` branch. Make sure GitHub Pages is enabled on that branch in your repository settings (**Settings → Pages → Source: gh-pages branch**).
 
 ---
 

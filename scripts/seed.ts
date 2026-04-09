@@ -18,7 +18,7 @@ dotenv.config({ path: path.resolve(__dirname, '../.env') })
 
 const supabase = createClient(
   process.env.VITE_SUPABASE_URL!,
-  process.env.VITE_SUPABASE_ANON_KEY!
+  process.env.VITE_SUPABASE_SERVICE_ROLE_KEY!
 )
 
 interface ProfessionRaw {
@@ -552,15 +552,9 @@ async function main() {
       patch.yes_next = qMap.get(node.yes) ?? null
     }
 
-    // no (only relevant for non-leaf nodes)
-    if (!node.yes.startsWith('prof:')) {
-      if (node.no.startsWith('prof:')) {
-        const profId = profMap.get(node.no.slice(5))
-        if (!profId) console.warn(`  ⚠ Unknown profession: ${node.no}`)
-        else patch.no_next = profId  // will be set as profession_id in the leaf node logic below
-      } else {
-        patch.no_next = qMap.get(node.no) ?? null
-      }
+    // no (only set if the target is another question node; prof: branches are handled in pass 3)
+    if (!node.yes.startsWith('prof:') && !node.no.startsWith('prof:')) {
+      patch.no_next = qMap.get(node.no) ?? null
     }
 
     // For leaf nodes: yes and no are both professions — this shouldn't happen in our tree
